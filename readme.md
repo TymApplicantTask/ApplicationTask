@@ -1,0 +1,1 @@
+Playtike appilicant test task
