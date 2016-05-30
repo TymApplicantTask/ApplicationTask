@@ -1,1 +1,1 @@
-Playtike appilicant test task
+Playtika appilicant test task
