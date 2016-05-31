@@ -7,7 +7,7 @@ namespace Playtika.ApplicantTestTask.Logic.DataProcessors
     {
         protected override bool TryProcessInput(string input, out string result)
         {
-            result = GetRelativePath(Path.GetFullPath(input));
+            result = GetRelativePath(input);
             return true;
         }
     }

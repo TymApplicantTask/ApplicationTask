@@ -6,7 +6,7 @@ namespace Playtika.ApplicantTestTask.Logic.DataProcessors
 {
     public class Reversed1DataProcessor : DataProcessor
     {
-        private static readonly string _directorySeparatorChar = Path.AltDirectorySeparatorChar.ToString();
+        private static readonly string _directorySeparatorChar = Path.DirectorySeparatorChar.ToString();
 
         protected override bool TryProcessInput(string input, out string result)
         {

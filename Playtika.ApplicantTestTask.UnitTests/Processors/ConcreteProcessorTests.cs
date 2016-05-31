@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Playtika.ApplicantTestTask.UnitTests
+namespace Playtika.ApplicantTestTask.UnitTests.Processors
 {
     using NUnit.Framework;
 
@@ -25,6 +25,5 @@ namespace Playtika.ApplicantTestTask.UnitTests
 
             Assert.False(res);
         }
-
     }
 }

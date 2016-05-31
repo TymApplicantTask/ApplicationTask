@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Playtika.ApplicantTestTask.Core
 {
@@ -51,7 +52,7 @@ namespace Playtika.ApplicantTestTask.Core
             }
 
             Uri cur = new Uri(currentFolder);
-            return _root.MakeRelativeUri(cur).ToString();
+            return _root.MakeRelativeUri(cur).ToString().Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar);
         }
     }
 }
